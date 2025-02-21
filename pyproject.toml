@@ -1,0 +1,11 @@
+[project]
+name = "appian-assessment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "black>=25.1.0",
+    "isort>=6.0.0",
+    "pylint>=3.3.4",
+]
