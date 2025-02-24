@@ -1,3 +1,5 @@
+from classes.deck import Deck
+
 def main():
     print("Hello from appian-assessment!")
 
