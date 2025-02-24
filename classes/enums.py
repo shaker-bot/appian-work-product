@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class Rank(Enum):
     TWO = 2
     THREE = 3
@@ -10,10 +11,11 @@ class Rank(Enum):
     EIGHT = 8
     NINE = 9
     TEN = 10
-    JACK = 11
-    QUEEN = 12
-    KING = 13
-    ACE = 14
+    JACK = "Jack"
+    QUEEN = "Queen"
+    KING = "King"
+    ACE = "Ace"
+
 
 class Suit(Enum):
     SPADES = "Spades"

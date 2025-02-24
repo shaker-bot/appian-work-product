@@ -1,8 +1,10 @@
 from dataclasses import dataclass
 
+
 @dataclass(frozen=True)
 class Card:
     """Class representing a 'Card' in a deck"""
+
     rank: str
     suit: str
 
