@@ -17,7 +17,7 @@ class Rank(Enum):
     ACE = "Ace"
 
 
-class Suit(Enum):
+class Suit(str, Enum):
     SPADES = "Spades"
     CLUBS = "Clubs"
     DIAMONDS = "Diamonds"
