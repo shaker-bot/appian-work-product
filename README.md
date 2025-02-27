@@ -41,3 +41,4 @@ uv run main.py
 
 ## To Note
 * There are multiple ways to handle the environment for running this code (i.e. Pipfile, uv, local). Eventually when new dependencies are needed, we can limit these options to one, to give a consistent development experience.
+* For this project, I've really only committed to main for the initial code changes. However usually I would open an branch and then create a PR against the main branch, this was just for ease at the moment.
