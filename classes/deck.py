@@ -11,9 +11,9 @@ class Deck:
     def __init__(self) -> None:
         """Initialize a new deck."""
         self.cards: List[Card] = []
-        self._build()
+        self.__build()
 
-    def _build(self) -> None:
+    def __build(self) -> None:
         """Helper function to build the initial deck of cards."""
         for suit in Suit:
             for rank in Rank:

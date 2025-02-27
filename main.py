@@ -5,6 +5,7 @@ def main():
     deck = Deck()
     deck.shuffle()
 
+    # Simulate Card Dealing
     while deck.cards:
         x = deck.deal_one_card()
         print(f"Dealt Card: {x}")
