@@ -7,6 +7,13 @@
 * Pipenv (Pipfile provided if desired)
 * (uv)[https://docs.astral.sh/uv/] (uv.lock provided if desired)
 
+## Two Ways to "Simulate"
+### Automatic Card Dealing and Output
+Lines 9-19 in `main.py` are by default uncommented. This will run the full simulation with the deck being fully dealt out after a single shuffle and then attempting to get another card which will output the fact that the deck has no more cards.
+
+### Interactive Deck Usage
+Lines 23-46 in `main.py` are commented out. Uncomment these lines and comment out 9-19 to have an interactive "experience" with the deck. This usage allows you to shuffle multiple times, reset the deck, check the remaining number of cards, and simply quit out of the program.
+
 ## How to Run
 ### Basic
 ```
